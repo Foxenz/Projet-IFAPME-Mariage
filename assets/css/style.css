@@ -1,0 +1,119 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(238, 225, 227);
+}
+
+p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+/* HEADER */
+header img {
+    width: 65%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* NAVBAR */
+.navbar {
+    margin: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+/* ASIDE */
+aside img {
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+}
+
+/* BACKGROUND */
+.background {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    max-height: 465px;
+    overflow: auto;
+}
+
+/* INFORMATIONS SUPPLEMENTAIRE */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}  
+
+table tr {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+table td {
+    width: 50%;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+
+/* FORM */
+.login input[type="text"],
+input[type="password"] {
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+form a {
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+/* INFO FLEXBOX */
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info p {
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+   body {
+        background-color: white;
+   }
+}
